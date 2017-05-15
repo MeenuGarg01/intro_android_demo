@@ -35,7 +35,7 @@ public class IntentWithResultActivity extends Activity {
 	
 	// Handle the result once the activity returns a result, display contact
 	protected void onActivityResult(int requestCode, int resultCode, Intent data) {
-		if (requestCode == 0) {
+		if (requestCode == 1) {
 			if (resultCode == RESULT_OK) {
 				TextView tvResult = (TextView)findViewById(R.id.txtDisplayResult);
 				tvResult.setText(data.getStringExtra("result"));
