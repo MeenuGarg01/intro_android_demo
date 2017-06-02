@@ -47,7 +47,7 @@ public class ProgressBarActivity extends Activity {
 	}
 	
 	public class DelayTask extends AsyncTask<Void, Integer, String> {
-		int count = 1;
+		int count = 2;
 		@Override
 		protected void onPreExecute() {
 		  pb.setVisibility(ProgressBar.VISIBLE);
